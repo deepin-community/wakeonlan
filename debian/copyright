@@ -1,0 +1,23 @@
+This is the Debian package for wakeonlan.
+
+It was downloaded from http://gsd.di.uminho.pt/jpo/software/wakeonlan/.
+But now hosted at https://github.com/jpoliv/wakeonlan
+
+Upstream Author: Jose Pedro Oliveira <jpo@di.uminho.pt>
+
+Copyright (C) 2000-2005 Jose Pedro Oliveira <jpo@di.uminho.pt>
+Copyright (C) Ico Doornekamp <ico@edd.dhs.org>
+
+License:
+
+This software is licensed under the terms of the Perl Artistic License.
+
+On Debian systems, the complete text of the Perl Artistic License
+can be found in /usr/share/common-licenses/Artistic file.
+
+The package was originally made for Debian by Steve Kemp, who passed it on
+to Daniel Baumann. The current maintainer is Thijs Kinkhorst.
+
+The Debian packaging is (C) 2006-2007, Daniel Baumann <daniel@debian.org> and
+(c) 2007 Thijs Kinkhorst. It is licensed under the GPL, see
+`/usr/share/common-licenses/GPL'.

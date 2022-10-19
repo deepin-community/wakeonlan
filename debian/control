@@ -1,0 +1,22 @@
+Source: wakeonlan
+Section: net
+Priority: optional
+Maintainer: Thijs Kinkhorst <thijs@debian.org>
+Build-Depends: debhelper (>= 9), perl
+Standards-Version: 4.1.4
+Homepage: https://github.com/jpoliv/wakeonlan
+Vcs-Git: https://salsa.debian.org/debian/wakeonlan.git
+Vcs-Browser: https://salsa.debian.org/debian/wakeonlan
+
+Package: wakeonlan
+Architecture: all
+Depends: perl, ${misc:Depends}
+Description: Sends 'magic packets' to wake-on-LAN enabled ethernet adapters
+ With this package you can remotely wake up and power on machines which have
+ motherboards or network cards that support 'Wake-on-Lan' packets.
+ .
+ The tool allows you to wake up a single machine, or a group of machines.
+ .
+ You need the MAC addresses of machines to construct the WOL packets, but,
+ in contrast to 'etherwake', you do not need root privileges to use the
+ program itself as UDP packets are used.

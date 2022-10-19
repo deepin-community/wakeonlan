@@ -1,0 +1,114 @@
+wakeonlan (0.41-12.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Fri, 01 Jan 2021 14:48:53 +0100
+
+wakeonlan (0.41-12) unstable; urgency=medium
+
+  * Update upstream URL to GitHub and Vcs urls to salsa.
+  * Remove debian/watch since upstream does not make releases anymore.
+  * Update to policy 4.1.4, no changes.
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Wed, 30 May 2018 18:48:18 +0000
+
+wakeonlan (0.41-11) unstable; urgency=low
+
+  * Switch to dpkg-source 3.0 (quilt) format.
+  * Update for policy 3.9.3; various other packaging cleanups.
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Sat, 10 Mar 2012 21:23:10 +0100
+
+wakeonlan (0.41-10) unstable; urgency=low
+
+  * Various packaging cleanups: add watch file, check for
+    newer standards version, add Homepage field etc.
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Wed, 05 Mar 2008 16:35:52 +0100
+
+wakeonlan (0.41-9) unstable; urgency=low
+
+  * Adopt package (Closes: 408223).
+  * Tweak description and debian/rules a bit.
+
+ -- Thijs Kinkhorst <thijs@debian.org>  Wed, 24 Jan 2007 17:03:49 +0100
+
+wakeonlan (0.41-8) unstable; urgency=low
+
+  * Orphaning package.
+
+ -- Daniel Baumann <daniel@debian.org>  Thu, 18 Jan 2007 11:22:00 +0100
+
+wakeonlan (0.41-7) unstable; urgency=low
+
+  * Applied patch from Vincent Danjean <Vincent.Danjean@ens-lyon.org> to
+    support symbolic names in /etc/ethers (Closes: #296825).
+
+ -- Daniel Baumann <daniel@debian.org>  Thu, 18 Jan 2007 11:22:00 +0100
+
+wakeonlan (0.41-6) unstable; urgency=low
+
+  * Forgot to change to arch all.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 30 Sep 2006 13:50:00 +0200
+
+wakeonlan (0.41-5) unstable; urgency=low
+
+  * New maintainer (Closes: #390293).
+  * Simplified debian directory.
+  * Using dpatch now for upstream modifications.
+
+ -- Daniel Baumann <daniel@debian.org>  Sat, 30 Sep 2006 13:06:00 +0200
+
+wakeonlan (0.41-4) unstable; urgency=low
+
+  * Updated to Debian Standards version 3.7.2
+     - Changed Build-Deps-Indep: into Build-Deps:
+     - Changed several accented characters into their "normal" versions.
+       (Must find a real solution, since this is nasty.)
+
+ -- Steve Kemp <skx@debian.org>  Tue, 30 May 2006 23:07:44 +0000
+
+wakeonlan (0.41-3) unstable; urgency=low
+
+  * Updated to Debian Standards version 3.6.2
+  * Added patch from Timo Weingartner to support the use of /etc/ethers
+    (Closes: #296825)
+
+ -- Steve Kemp <skx@debian.org>  Sat, 13 Aug 2005 00:06:55 +0000
+
+wakeonlan (0.41-2) unstable; urgency=low
+
+  * Changed 'Build-Depends' to 'Build-Depends-Indep'
+    this fixes the only outstanding Lintian warning.
+
+ -- Steve Kemp <skx@debian.org>  Mon, 18 Apr 2005 17:19:45 +0000
+
+wakeonlan (0.41-1) unstable; urgency=low
+
+  * New upstream release.
+  * Correct manpage is referenced when invoked with no args.
+    Fixed upstream.
+    (Closes: #291117)
+
+ -- Steve Kemp <skx@debian.org>  Tue, 1 Feb 2005 14:16:03 +0000
+
+wakeonlan (0.40-2) unstable; urgency=low
+
+  * Release to fix up bogus packaging errors spotted and reported by
+    Michal Politowski.
+  * Install manpage in correct directory, not /
+    (Closes: #290150)
+  * Include examples directory in /usr/share/doc/wakeonlan
+    (Closes: #290151)
+  * Move manpage into section 1, not 1p.
+
+ -- Steve Kemp <skx@debian.org>  Thur, 13 Jan 2005 12:59:20 +0000
+
+wakeonlan (0.40-1) unstable; urgency=low
+
+  * Initial Debian package.
+    (Closes: #286838)
+
+ -- Steve Kemp <skx@debian.org>  Wed, 22 Dec 2004 22:25:18 +0000
